@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+set -e
+
+interval=$((15 * 60))
+out=$(dirname "$0")/values
+
+echo "writing every ${interval}s to $out"
+
+while : ; do
+  ./print \
+    | jq -c '. + {"time": "'$(date +%FT%T%Z)'"}' \
+    | tee -a values
+  sleep $interval || break
+done

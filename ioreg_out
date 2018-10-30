@@ -1,0 +1,7 @@
+    | |           "AppleRawCurrentCapacity" = 3129
+    | |           "AppleRawMaxCapacity" = 4427
+    | |           "MaxCapacity" = 4427
+    | |           "CurrentCapacity" = 3129
+    | |           "LegacyBatteryInfo" = {"Amperage"=18446744073709551246,"Flags"=4,"Capacity"=4427,"Current"=3129,"Voltage"=7891,"Cycle Count"=158}
+    | |           "DesignCapacity" = 5297
+    | |           "BatteryData" = {"StateOfCharge"=18176,"Voltage"=7891,"QmaxCell1"=52498,"ResScale"=0,"QmaxCell2"=0,"QmaxCell0"=54034,"CycleCount"=158,"DesignCapacity"=5297}
